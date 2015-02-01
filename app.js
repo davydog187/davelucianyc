@@ -3,10 +3,10 @@ var app = express();
 var cool = require("cool-ascii-faces");
 
 app.set('port', (process.env.PORT || 5000));
-app.use(express.static(__dirname + '/public'));
+app.use("/public/images", express.static(__dirname + "/public/images"));
 
 app.get('/', function(request, response) {
-  response.sendFile(__dirname + "/app/components/index.html");
+  response.sendFile(__dirname + "/index.html");
 });
 
 app.listen(app.get('port'), function() {
