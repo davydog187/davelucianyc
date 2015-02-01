@@ -4,6 +4,7 @@
   "description": "My personal website",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "test"
   },
   "repository": {
