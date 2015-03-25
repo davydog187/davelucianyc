@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.home__left-rail {
+    padding: 20px;
+    background-color: blue;
+    width: 300px;
+}
+
+.home__left-rail,
+.home__content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left-rail__title {
+    text-align: center;
+}
+
+.left-rail__social {
+    list-style-type: none;
+}
+
+.social {
+    display: inline;
+}
+
+.social__link {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid orange;
+}
+
+.social__link:hover {
+    color: orange;
+}
