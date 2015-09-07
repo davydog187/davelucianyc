@@ -1,10 +1,21 @@
-body {
-    margin: 0;
+.tan {
+    color: #dddfd4;
+}
+.yellow {
+    color: #fae596;
+}
+
+.turquoise {
+    color: #3fb0ac;
+}
+
+.darkgreen {
+    color: #173e43;
 }
 
 .home__left-rail {
     padding: 20px;
-    background-color: blue;
+    background-color: #3fb0ac;
     width: 300px;
 }
 
@@ -14,7 +25,14 @@ body {
     vertical-align: top;
 }
 
+.home__profile-pic {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
 .left-rail__title {
+    color: #173e43;
     text-align: center;
 }
 
