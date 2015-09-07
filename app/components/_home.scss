@@ -1,0 +1,33 @@
+.home {
+
+    &__left-rail {
+        background-color: $turquoise;
+        padding: 20px;
+        width: 300px;
+    }
+
+    &__left-rail,
+    &__content {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    &__profile-pic {
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.left-rail {
+
+    &__title {
+        color: $darkgreen;
+        text-align: center;
+    }
+
+    &__social {
+        list-style-type: none;
+    }
+
+}
