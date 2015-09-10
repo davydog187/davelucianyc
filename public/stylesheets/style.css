@@ -1,3 +1,6 @@
+body {
+  margin: 0; }
+
 .home__left-rail {
   background-color: #3fb0ac;
   padding: 20px;
@@ -6,6 +9,8 @@
   display: inline-block;
   vertical-align: top; }
 .home__profile-pic {
+  display: block;
+  margin: 0 auto;
   border-radius: 100%;
   width: 200px;
   height: 200px; }

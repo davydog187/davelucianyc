@@ -13,6 +13,8 @@
     }
 
     &__profile-pic {
+        display: block;
+        margin: 0 auto;
         border-radius: 100%;
         width: 200px;
         height: 200px;
@@ -29,5 +31,4 @@
     &__social {
         list-style-type: none;
     }
-
 }

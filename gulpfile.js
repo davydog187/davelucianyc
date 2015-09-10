@@ -29,16 +29,8 @@ gulp.task("server", function() {
     });
 });
 
-gulp.task("default", ["sass"], function() {
-    gulp.run("server");
-
-    gulp.watch(["./app.js", "./app/code/**/*.js"], function() {
-        gulp.run("server");
-    });
-
-    gulp.watch("./public/style.css", function() {
-        gulp.run("server");
-    });
+gulp.task("default", ["sass", "server"], function() {
+    gulp.watch(["./app.js", "./app/code/**/*.js", "./public/style.css"], ["server"]);
 
 });
 
